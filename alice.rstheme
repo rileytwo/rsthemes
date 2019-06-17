@@ -90,7 +90,7 @@
 
 .ace_keyword,
 .ace_meta {
-	color: #ff6666;
+	color: #FF7E81;
 	/* text-shadow: */
 	font-weight: normal;
 }
@@ -201,7 +201,7 @@
 }
 
 .ace_indent-guide {
-	border-right: 1px solid rgb(255, 254, 254);
+	border-right: 1px solid #444444;
 	margin-right: -1px;
 }
 
@@ -250,7 +250,7 @@
 }
 
 .ace_keyword.ace_operator.ace_infix {
-	color: #ff6666 !important;
+	color: #FF7E81 !important;
 	/* text-shadow: */
 }
 
