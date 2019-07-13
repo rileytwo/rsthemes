@@ -1,4 +1,4 @@
-/* made by livelaughriley 
+/* made by livelaughriley
 
 	https://github.com/livelaughriley
 
@@ -201,8 +201,9 @@
 }
 
 .ace_indent-guide {
-	border-right: 1px solid #444444;
-	margin-right: -1px;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQImWNgYGBgYHB3d/8PAAOIAdULw8qMAAAAAElFTkSuQmCC) right repeat-y
+	/* border-right: 1px solid #444444; */
+	/* margin-right: -1px; */
 }
 
 .nocolor.ace_editor .ace_line span {
