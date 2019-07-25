@@ -23,10 +23,10 @@
     --keyword: #9691FF;
     --type: #FF8F86;
     --string: #F7A9A8;
-    --constant: #73ff96;
-    --numeric-constant: #8AFFE4;
+    --constant: #96ffb1;
+    --numeric-constant: #96ffb1;
     --variable: #6961ff;
-    --regex: #8AFFE4;
+    --regex: #73ff96;
     --function-declaration: #3FB2FF;
     --function: #3FB2FF;
     --comment: #444444;
