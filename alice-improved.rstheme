@@ -33,7 +33,7 @@
 	--sectionhead: #F9F1A5;
     --operators: #FF786E;
     --punctuation: #3FB2FF;
-    --brackets: #CFCFCF;
+    --brackets: #888888;
 
     /* markdown */
     --heading: #73ff96;
