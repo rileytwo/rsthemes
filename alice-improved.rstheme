@@ -29,7 +29,8 @@
     --regex: #73ff96;
     --function-declaration: #3FB2FF;
     --function: #3FB2FF;
-    --comment: #666666;
+	--comment: #666666;
+	--sectionhead: #F9F1A5;
     --operators: #FF786E;
     --punctuation: #3FB2FF;
     --brackets: #CFCFCF;
