@@ -163,7 +163,7 @@
 }
 
 .ace_comment.ace_sectionhead {
-	color: var(--comment);
+	color: var(--sectionhead);
 	font-style: normal;
 	font-weight: normal;
 }
