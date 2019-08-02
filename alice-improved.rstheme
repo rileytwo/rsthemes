@@ -6,39 +6,39 @@
 /* rs-theme-name: Alice-Improved */
 /* rs-theme-is-dark: TRUE */
 :root {
-    /* editor */
-    --editor-background-color: #141414;
-    --editor-background: var(--editor-background-color);
-    --editor-foreground: #E6E6E6;
-    --gutter: #181818;
-    --gutter-foreground: #E2E2E2;
-    --cursor: #0BCAFF;
+	/* editor */
+	--editor-background-color: #141414;
+	--editor-background: var(--editor-background-color);
+	--editor-foreground: #E6E6E6;
+	--gutter: #181818;
+	--gutter-foreground: #E2E2E2;
+	--cursor: #0BCAFF;
 
-    --separator: #333333;
-    --toolbar: #222222;
-    --tab: #282828;
-    --selected-tab: var(--editor-background-color);
+	--separator: #333333;
+	--toolbar: #222222;
+	--tab: #282828;
+	--selected-tab: var(--editor-background-color);
 
-    /* syntax highlights */
-    --keyword: #9691FF;
-    --type: #FF8F86;
-    --string: #F7A9A8;
-    --constant: #96ffb1;
-    --numeric-constant: #96ffb1;
-    --variable: #6961ff;
-    --regex: #73ff96;
-    --function-declaration: #3FB2FF;
-    --function: #3FB2FF;
+	/* syntax highlights */
+	--keyword: #9691FF;
+	--type: #FF8F86;
+	--string: #F7A9A8;
+	--constant: #96ffb1;
+	--numeric-constant: #96ffb1;
+	--variable: #6961ff;
+	--regex: #73ff96;
+	--function-declaration: #3FB2FF;
+	--function: #3FB2FF;
 	--comment: #666666;
 	--sectionhead: #F9F1A5;
-    --operators: #FF786E;
-    --punctuation: #3FB2FF;
-    --brackets: #888888;
+	--operators: #FF786E;
+	--punctuation: #3FB2FF;
+	--brackets: #888888;
 
-    /* markdown */
-    --heading: #73ff96;
-    --inline-code: var(--string);
-    --markdown-section: #3A3A3A
+	/* markdown */
+	--heading: #73ff96;
+	--inline-code: var(--string);
+	--markdown-section: #3A3A3A
 }
 
 .ace_gutter {
@@ -88,10 +88,11 @@
 
 /* vim cursor */
 .normal-mode .ace_cursor {
-	border: 0!important;
+	border: 0 !important;
 	background-color: var(--cursor);
 	opacity: 0.5;
 }
+
 .ace_keyword,
 .ace_meta {
 	color: var(--keyword);
@@ -111,7 +112,7 @@
 
 .ace_constant.ace_language {
 	color: var(--constant);
-	font-weight: 600;
+	font-weight: normal;
 }
 
 .ace_fold {
@@ -143,7 +144,7 @@
 
 .ace_heading {
 	color: var(--heading);
-	font-weight: 600;
+	font-weight: 500;
 	/* text-shadow: */
 }
 
@@ -311,23 +312,20 @@
 .terminal {
 	background-color: inherit;
 	color: #f8f8f2;
-	font-feature-settings: "liga" 0;
+	font-feature-settings: "liga"0;
 	position: relative;
 	user-select: none;
 	-ms-user-select: none;
 	-webkit-user-select: none;
 }
 
-.terminal.xterm-cursor-style-block.focus:not(.xterm-cursor-blink-on)
-	.terminal-cursor {
+.terminal.xterm-cursor-style-block.focus:not(.xterm-cursor-blink-on) .terminal-cursor {
 	background-color: #ccc;
 	color: #1e1e1e;
 }
 
-.terminal.focus.xterm-cursor-style-bar:not(.xterm-cursor-blink-on)
-	.terminal-cursor::before,
-.terminal.focus.xterm-cursor-style-underline:not(.xterm-cursor-blink-on)
-	.terminal-cursor::before {
+.terminal.focus.xterm-cursor-style-bar:not(.xterm-cursor-blink-on) .terminal-cursor::before,
+.terminal.focus.xterm-cursor-style-underline:not(.xterm-cursor-blink-on) .terminal-cursor::before {
 	content: "";
 	position: absolute;
 	background-color: #ccc;
@@ -357,7 +355,7 @@
 }
 
 .xterm600 {
-	font-weight: 600;
+	font-weight: 500;
 }
 
 .xtermUnderline {
@@ -2450,14 +2448,8 @@
 	color: #f0f0f0;
 }
 
-.rstudio-themes-flat.rstudio-themes-dark-menus
-	.ace_editor.ace_autocomplete
-	.ace_marker-layer
-	.ace_active-line,
-.rstudio-themes-flat.rstudio-themes-dark-menus
-	.ace_editor.ace_autocomplete
-	.ace_marker-layer
-	.ace_line-hover {
+.rstudio-themes-flat.rstudio-themes-dark-menus .ace_editor.ace_autocomplete .ace_marker-layer .ace_active-line,
+.rstudio-themes-flat.rstudio-themes-dark-menus .ace_editor.ace_autocomplete .ace_marker-layer .ace_line-hover {
 	background: rgba(255, 255, 255, 0.15);
 	border: none;
 }
