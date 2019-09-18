@@ -21,19 +21,19 @@
 
 	/* syntax highlights */
 	--keyword: #9691FF;
-	--type: #FF8F86;
-	--string: #F7A9A8;
-	--constant: #FF7DE9;
-	--numeric-constant: #96ffb1;
-	--variable: #6961ff;
+	--type: #fcb4ae;
+	--string: #aefcc5;
+	--constant: #ff96ed;
+	--numeric-constant: #ff96ed;
+	--variable: #9691FF;
 	--regex: #73ff96;
 	--function-declaration: #3FB2FF;
 	--function: #3FB2FF;
 	--comment: #666666;
 	--sectionhead: #F9F1A5;
-	--operators: #FF786E;
+	--operators: #FF8F86;
 	--punctuation: #3FB2FF;
-	--brackets: #888888;
+	--brackets: #d4d4d4;
 
 	/* markdown */
 	--heading: #73ff96;
