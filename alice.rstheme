@@ -49,7 +49,7 @@
 /* vim cursor */
 
 .normal-mode .ace_cursor {
-	border: 0!important;
+	border: 0 !important;
 	background-color: #00c1fc;
 	opacity: 0.5;
 }
@@ -218,7 +218,7 @@
 .ace_marker-layer .ace_active_debug_line {
 	position: absolute;
 	z-index: -1;
-	background-color: #7f8437;
+	background-color: #222222;
 }
 
 .ace_marker-layer .ace_find_line {
@@ -228,7 +228,7 @@
 }
 
 .ace_console_error {
-	background-color: #1d424b;
+	background-color: #222222;
 }
 
 .ace_paren.ace_keyword.ace_operator {
@@ -279,23 +279,20 @@
 .terminal {
 	background-color: inherit;
 	color: #f8f8f2;
-	font-feature-settings: "liga" 0;
+	font-feature-settings: "liga"0;
 	position: relative;
 	user-select: none;
 	-ms-user-select: none;
 	-webkit-user-select: none;
 }
 
-.terminal.xterm-cursor-style-block.focus:not(.xterm-cursor-blink-on)
-	.terminal-cursor {
+.terminal.xterm-cursor-style-block.focus:not(.xterm-cursor-blink-on) .terminal-cursor {
 	background-color: #ccc;
 	color: #1e1e1e;
 }
 
-.terminal.focus.xterm-cursor-style-bar:not(.xterm-cursor-blink-on)
-	.terminal-cursor::before,
-.terminal.focus.xterm-cursor-style-underline:not(.xterm-cursor-blink-on)
-	.terminal-cursor::before {
+.terminal.focus.xterm-cursor-style-bar:not(.xterm-cursor-blink-on) .terminal-cursor::before,
+.terminal.focus.xterm-cursor-style-underline:not(.xterm-cursor-blink-on) .terminal-cursor::before {
 	content: "";
 	position: absolute;
 	background-color: #ccc;
@@ -2418,14 +2415,8 @@
 	color: #f0f0f0;
 }
 
-.rstudio-themes-flat.rstudio-themes-dark-menus
-	.ace_editor.ace_autocomplete
-	.ace_marker-layer
-	.ace_active-line,
-.rstudio-themes-flat.rstudio-themes-dark-menus
-	.ace_editor.ace_autocomplete
-	.ace_marker-layer
-	.ace_line-hover {
+.rstudio-themes-flat.rstudio-themes-dark-menus .ace_editor.ace_autocomplete .ace_marker-layer .ace_active-line,
+.rstudio-themes-flat.rstudio-themes-dark-menus .ace_editor.ace_autocomplete .ace_marker-layer .ace_line-hover {
 	background: rgba(255, 255, 255, 0.15);
 	border: none;
 }

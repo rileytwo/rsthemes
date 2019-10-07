@@ -252,11 +252,11 @@
 .ace_marker-layer .ace_active_debug_line {
 	position: absolute;
 	z-index: -1;
-	background-color: #7f8437;
+	background-color: #222222;
 }
 
 .ace_console_error {
-	background-color: #1d424b;
+	background-color: #222222;
 }
 
 .ace_marker-layer .ace_find_line {
