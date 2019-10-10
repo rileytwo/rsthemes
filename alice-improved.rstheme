@@ -2453,3 +2453,20 @@
 	background: rgba(255, 255, 255, 0.15);
 	border: none;
 }
+/* JS Changing the data viewing window colors */
+
+/* JS This is the color of the data cells */
+.rstudio-themes-flat.rstudio-themes-dark-grey #rsGridData_info,
+.rstudio-themes-flat.rstudio-themes-dark-grey th,
+.rstudio-themes-flat.rstudio-themes-dark-grey td.first-child,
+.rstudio-themes-flat.rstudio-themes-dark-grey table.dataTable thead th {
+	background-color: #2b2b2b;
+}
+
+/* JS This is the color of the border of the data cells */
+.rstudio-themes-flat.rstudio-themes-dark-grey #rsGridData_info,
+.rstudio-themes-flat.rstudio-themes-dark-grey table.dataTable thead th,
+.rstudio-themes-flat.rstudio-themes-dark-grey table.dataTable thead td,
+.rstudio-themes-flat.rstudio-themes-dark-grey table.dataTable tbody td {
+	border-color: black;
+}
