@@ -22,7 +22,7 @@
 	/* syntax highlights */
 	--keyword: #9691FF;
 	--type: #fcb4ae;
-	--string: #aefcc5;
+	--string: #83fcbd;
 	--constant: #ff96ed;
 	--numeric-constant: #ff96ed;
 	--variable: #9691FF;
@@ -2453,6 +2453,7 @@
 	background: rgba(255, 255, 255, 0.15);
 	border: none;
 }
+
 /* JS Changing the data viewing window colors */
 
 /* JS This is the color of the data cells */
